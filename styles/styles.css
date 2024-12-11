@@ -102,3 +102,21 @@ body {
         transform: translateX(1);
     }
 }
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 60px;
+    }
+    .flex-row {
+        flex-direction: column;
+    }
+    .main-div {
+        margin: 20px;
+    }
+    .link-container {
+        margin: 12px;
+    }
+    .wave {
+        height: 6em;
+    }
+}
